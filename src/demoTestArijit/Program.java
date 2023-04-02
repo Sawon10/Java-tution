@@ -21,10 +21,13 @@ public class Program {
 		System.out.println("Printing the List in reverse Order: ");
 		System.out.println(reverseList(num, len));
 		//Print 4 th elemet of the list// 
-		System.out.println(num.get(3));
+//		System.out.println(num.get(3));
 		
 		//Write a code to print ith fibonacci no//
 		//Write a code to reverse a string//
+		//Accessing and creating a class object//
+		Student arijit = new Student("TECHNO2023-30","Arijit Saha",222);
+		System.out.println(arijit.getName());
 	}
 
 	private static List<Integer> reverseList(List<Integer> num, int n) {
